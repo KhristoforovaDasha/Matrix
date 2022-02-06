@@ -3,4 +3,4 @@ project(Matrix)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Matrix main.cpp BigInteger.cpp BigInteger.h Rational.cpp Rational.h Residue.cpp Residue.h Matrix.cpp Matrix.h)
+add_executable(Matrix main.cpp src/BigInteger.cpp include/BigInteger.h src/Rational.cpp include/Rational.h src/Residue.cpp include/Residue.h src/Matrix.cpp include/Matrix.h)

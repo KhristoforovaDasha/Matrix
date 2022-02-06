@@ -2,7 +2,7 @@
 // Created by khristoforova-dasha on 09.01.2022.
 //
 
-#include "Residue.h"
+#include "../include/Residue.h"
 
 template<size_t Num>
 Residue<Num> Residue<Num>::BinaryExponentiation(int exp) const {

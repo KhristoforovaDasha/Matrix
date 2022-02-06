@@ -2,7 +2,7 @@
 // Created by khristoforova-dasha on 09.01.2022.
 //
 
-#include "Rational.h"
+#include "../include/Rational.h"
 std::ostream& operator<<(std::ostream& out, const Rational& object) {
     string result = object.getNumerator().toString() + '/' + object.getDenominator().toString();
     out << result;

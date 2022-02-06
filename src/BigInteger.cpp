@@ -2,7 +2,7 @@
 // Created by khristoforova-dasha on 09.01.2022.
 //
 
-#include "BigInteger.h"
+#include "../include/BigInteger.h"
 
 bool GreatestWithoutSign(const BigInteger& first, const BigInteger& second) {
     size_t ourSize = first.getSize(), otherSize = second.getSize();

@@ -2,7 +2,7 @@
 // Created by khristoforova-dasha on 09.01.2022.
 //
 
-#include "Matrix.h"
+#include "../include/Matrix.h"
 
 template<size_t Rows, typename Field = Rational>
 using SquareMatrix = Matrix<Rows, Rows, Field>;
